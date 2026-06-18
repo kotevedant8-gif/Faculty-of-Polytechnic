@@ -39,3 +39,12 @@ ask_marks()
         else:
             print("type only y/n only")
 ask_y_n()
+#problem4
+ def collect():
+    TN=ask_text()
+    AM1=ask_marks()
+    AM2=ask_marks()
+    AM3=ask_marks()
+    YN=ask_y_n()
+    return(TN,AM1,AM2,AM3,YN)
+collect()
